@@ -1,0 +1,4 @@
+@st.cache
+def load_matches(competition_id, season_id):
+    return sb.matches(competition_id=competition_id, season_id=season_id)
+
